@@ -1,0 +1,155 @@
+body {
+    background-color: #a9cbc9;
+    width: 500px;
+    margin: auto;
+}
+
+.marquee {
+    height: 80px;
+    background-color: #b0d5d8;
+    border: 10px double #b4c3d3;
+    display: flex;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.l1:hover {
+    background-color: gray;
+
+}
+
+.l2:hover {
+    background-color: grey;
+}
+
+.l3:hover {
+    background-color: grey;
+}
+
+.firstimg {
+    width: 400px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.product1 {
+    border: 5px solid khaki;
+    margin: 25px;
+    text-align: center;
+
+}
+
+.products1 {
+    display: flex;
+    border: solid 5px aquamarine;
+    background-image: url("https://i.pinimg.com/originals/9e/7b/47/9e7b47982ee1b58fef26717182b4b28c.jpg");
+    background-position: center;
+}
+
+.products2 {
+    display: flex;
+    border: solid 5px aquamarine;
+    background-image: url("https://s3.envato.com/files/288031486/Fruit%202%208%201.jpg");
+    background-position: center;
+}
+
+.products3 {
+    display: block;
+    border: solid 5px aquamarine;
+    background-image: url("https://wallpaperaccess.com/full/1307279.jpg");
+    background-position: center;
+}
+
+.topimg {
+    background-image: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
+    background-position: center;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Special Elite", cursive;
+    color: lightgrey;
+}
+
+.textp1 {
+    background-color: #c6d9d3;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.5;
+    height: 100px;
+    color: #75704E;
+}
+
+.textp1:hover{
+opacity:1.0;
+    background-color:c6d9d3;
+    height:321px;
+    color:black;
+}
+
+.textp2 {
+    background-color: #c6d9d3;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.5;
+    height: 100px;
+    color: #75704E;
+    font-family: "Sofia", sans-serif;
+}
+
+.textp2:hover{
+opacity:1.0;
+    background-color:#F5FFFA;
+    height:321px;
+    color:orange;
+    height:284px;
+}
+.textp3 {
+    background-color: grey;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.5;
+    height: 100px;
+    color: white;
+}
+
+.textp3:hover{
+opacity:1.0;
+    background-color:grey;
+    height:321px;
+    color:lawngreen;
+    height:100px;
+}
+
+.text:hover {
+    opacity: 2.0;
+}
+.ra{
+color:lightgreen;
+   font-family: 'Creepster', cursive;
+}
+
+.marquee2{
+height: 80px;
+    padding:50px
+    background-color: #b0d5d8;
+    border: 10px double #b4c3d3;
+    display: flex;
+}
+
+ .rainbow {
+        background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
